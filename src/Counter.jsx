@@ -1,25 +1,26 @@
 import { useState } from 'react';
 
-function Counter () {
-    const [count, setCounter] = useState(0);
+function Counter ({ startwert=0, schritt=1, titel="Punkte", min=0, max=1000 }) {
+    const [count, setCounter] = useState(startwert);
     const [istSichtbar, setIstSichtbar] = useState(true);
-    const [titel, setTitel] = useState('Mein Counter');
     const [countClick, setCountClick] = useState(0);
 
     const erhoehen = () => {
-        setCounter(count + 1);
+        if (count < max) {
+            setCounter(count + schritt);
+        } 
         setCountClick(countClick + 1);
     }
 
     const verringern = () => {
-        if (count > 0) {
-            setCounter(count -1);
+        if (count > min) {
+            setCounter(count - schritt);
         }
         setCountClick(countClick + 1);
     }
 
     const reset = () => {
-        setCounter(0);
+        setCounter(startwert);
         setCountClick(countClick + 1);
     }
 
@@ -36,8 +37,8 @@ function Counter () {
             {istSichtbar && (
                 <div>
                     <p>Aktueller Zähler: {count}</p>
-                    <button onClick={erhoehen}>Erhöhen</button>
-                    <button onClick={verringern}>Verringern</button>
+                    <button onClick={erhoehen} disabled={count >= max}>+{schritt}</button>
+                    <button onClick={verringern} disabled={count <= min}>-{schritt}</button>
                     <button onClick={reset}>Reset</button>
                     <p>Gesamtanzahl Klicks: {countClick}</p>
                 </div>
