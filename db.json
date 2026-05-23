@@ -1,0 +1,209 @@
+{
+  "questions": [
+    {
+      "id": "1",
+      "category": "Sport",
+      "difficulty": "leicht",
+      "text": "Welches Land hat die meisten FIFA-Weltmeisterschaften gewonnen?",
+      "answers": ["Brasilien", "Italien", "Argentinien", "Deutschland"],
+      "correctAnswer": "Brasilien"
+    },
+    {
+      "id": "2",
+      "category": "Technologie",
+      "difficulty": "leicht",
+      "text": "Was bedeutet die Abkürzung 'HTTP'?",
+      "answers": [
+        "HyperText Transfer Protocol",
+        "HyperText Transmission Protocol",
+        "HyperText Transfer Program",
+        "HyperText Transmission Program"
+      ],
+      "correctAnswer": "HyperText Transfer Protocol"
+    },
+    {
+      "id": "3",
+      "category": "Geographie",
+      "difficulty": "mittel",
+      "text": "Welches ist der höchste Berg gemessen von seiner Unterwasserbasis?",
+      "answers": ["Mount Everest", "Mauna Kea", "K2", "Kangchenjunga"],
+      "correctAnswer": "Mauna Kea"
+    },
+    {
+      "id": "4",
+      "category": "Geschichte",
+      "difficulty": "mittel",
+      "text": "In welchem Jahr wurde die Schweizerische Eidgenossenschaft gegründet?",
+      "answers": ["1291", "1315", "1351", "1499"],
+      "correctAnswer": "1291"
+    },
+    {
+      "id": "5",
+      "category": "Sport",
+      "difficulty": "schwer",
+      "text": "Wieviele Spieler stehen bei einem Cricket Match auf dem Feld?",
+      "answers": ["9", "10", "11", "13"],
+      "correctAnswer": "13"
+    },
+    {
+        "id": "6",
+        "category": "Geographie",
+        "difficulty": "leicht",
+        "text": "Was ist die Hauptstadt von Australien?",
+        "answers": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+        "correctAnswer": "Canberra"
+    },
+    {
+        "id": "7",
+        "category": "Geographie",
+        "difficulty": "mittel",
+        "text": "Welcher Fluss fliesst durch die Stadt Budapest?",
+        "answers": ["Donau", "Elbe", "Rhein", "Moldau"],
+        "correctAnswer": "Donau"
+    },
+    {
+        "id": "8",
+        "category": "Geographie",
+        "difficulty": "mittel",
+        "text": "Welches Land hat die laengste Kuestenlinie der Welt?",
+        "answers": ["Russland", "Norwegen", "Kanada", "Australien"],
+        "correctAnswer": "Kanada"
+    },
+    {
+        "id": "9",
+        "category": "Geographie",
+        "difficulty": "schwer",
+        "text": "In welchem Land liegt der Titicacasee?",
+        "answers": ["Nur in Peru", "Nur in Bolivien", "Auf der Grenze zwischen Peru und Bolivien", "Auf der Grenze zwischen Chile und Argentinien"],
+        "correctAnswer": "Auf der Grenze zwischen Peru und Bolivien"
+    },
+    {
+        "id": "10",
+        "category": "Geographie",
+        "difficulty": "schwer",
+        "text": "Wie heisst die Hauptstadt von Kasachstan?",
+        "answers": ["Almaty", "Astana", "Taschkent", "Bischkek"],
+        "correctAnswer": "Astana"
+    },
+    {
+        "id": "11",
+        "category": "Geschichte",
+        "difficulty": "leicht",
+        "text": "In welchem Jahr fiel die Berliner Mauer?",
+        "answers": ["1987", "1991", "1989", "1985"],
+        "correctAnswer": "1989"
+    },
+    {
+        "id": "12",
+        "category": "Geschichte",
+        "difficulty": "leicht",
+        "text": "Wer war der erste Mensch auf dem Mond?",
+        "answers": ["Buzz Aldrin", "Yuri Gagarin", "Neil Armstrong", "John Glenn"],
+        "correctAnswer": "Neil Armstrong"
+    },
+    {
+        "id": "13",
+        "category": "Geschichte",
+        "difficulty": "mittel",
+        "text": "Welches Jahr gilt als Beginn des Ersten Weltkriegs?",
+        "answers": ["1912", "1916", "1918", "1914"],
+        "correctAnswer": "1914"
+    },
+    {
+        "id": "14",
+        "category": "Geschichte",
+        "difficulty": "schwer",
+        "text": "Welcher roemische Kaiser liess das Kolosseum erbauen?",
+        "answers": ["Julius Caesar", "Augustus", "Vespasian", "Nero"],
+        "correctAnswer": "Vespasian"
+    },
+    {
+        "id": "15",
+        "category": "Geschichte",
+        "difficulty": "schwer",
+        "text": "Wie hiess der Vertrag, der den Dreissigjaehrigen Krieg beendete?",
+        "answers": ["Vertrag von Utrecht", "Westfaelischer Friede", "Frieden von Augsburg", "Frieden von Basel"],
+        "correctAnswer": "Westfaelischer Friede"
+    },
+    {
+        "id": "16",
+        "category": "Sport",
+        "difficulty": "leicht",
+        "text": "Wie viele Spieler hat eine Fussballmannschaft auf dem Feld?",
+        "answers": ["9", "10", "11", "12"],
+        "correctAnswer": "11"
+    },
+    {
+        "id": "17",
+        "category": "Sport",
+        "difficulty": "mittel",
+        "text": "In welcher Stadt fanden die Olympischen Sommerspiele 2016 statt?",
+        "answers": ["Buenos Aires", "Rio de Janeiro", "Sao Paulo", "Lima"],
+        "correctAnswer": "Rio de Janeiro"
+    },
+    {
+        "id": "18",
+        "category": "Sport",
+        "difficulty": "mittel",
+        "text": "Welches Land gewann die Fussball-Weltmeisterschaft 2014?",
+        "answers": ["Argentinien", "Brasilien", "Frankreich", "Deutschland"],
+        "correctAnswer": "Deutschland"
+    },
+    {
+        "id": "19",
+        "category": "Sport",
+        "difficulty": "schwer",
+        "text": "Wie viele Grand-Slam-Titel hat Roger Federer in seiner Karriere gewonnen?",
+        "answers": ["18", "22", "20", "17"],
+        "correctAnswer": "20"
+    },
+    {
+        "id": "20",
+        "category": "Sport",
+        "difficulty": "schwer",
+        "text": "Bei welchen Olympischen Spielen wurde Basketball erstmals als offizielle Disziplin aufgenommen?",
+        "answers": ["Los Angeles 1932", "Berlin 1936", "London 1948", "Helsinki 1952"],
+        "correctAnswer": "Berlin 1936"
+    },
+    {
+        "id": "21",
+        "category": "Technologie",
+        "difficulty": "leicht",
+        "text": "Wofuer steht die Abkuerzung 'CPU'?",
+        "answers": ["Central Processing Unit", "Computer Power Unit", "Central Program Utility", "Core Processing Unit"],
+        "correctAnswer": "Central Processing Unit"
+    },
+    {
+        "id": "22",
+        "category": "Technologie",
+        "difficulty": "leicht",
+        "text": "In welchem Jahr wurde das World Wide Web erfunden?",
+        "answers": ["1985", "1995", "1991", "1989"],
+        "correctAnswer": "1989"
+    },
+    {
+        "id": "23",
+        "category": "Technologie",
+        "difficulty": "mittel",
+        "text": "Welche Programmiersprache wurde von Guido van Rossum entwickelt?",
+        "answers": ["Ruby", "Java", "Python", "Perl"],
+        "correctAnswer": "Python"
+    },
+    {
+        "id": "24",
+        "category": "Technologie",
+        "difficulty": "mittel",
+        "text": "Was beschreibt das Mooresche Gesetz?",
+        "answers": ["Die Verdoppelung der Internetgeschwindigkeit alle zwei Jahre", "Die Verdoppelung der Transistoranzahl auf Chips alle zwei Jahre", "Die Halbierung des Stromverbrauchs von Prozessoren alle zwei Jahre", "Die Verdoppelung des Festplattenspeichers alle 18 Monate"],
+        "correctAnswer": "Die Verdoppelung der Transistoranzahl auf Chips alle zwei Jahre"
+    },
+    {
+        "id": "25",
+        "category": "Technologie",
+        "difficulty": "schwer",
+        "text": "Welches Verschluesselungsverfahren verwendet zwei mathematisch verknuepfte Schlussel?",
+        "answers": ["AES", "DES", "RSA", "MD5"],
+        "correctAnswer": "RSA"
+    }
+  ]
+}
